@@ -25,10 +25,10 @@ const handleIrListaTiendas = (valor) => {
                     </View>
                     <View>
                         <View style={styles.textContainer}>
-                            <Text style={styles.textName}>Deco Garden</Text>
+                            <Text style={styles.textName}>Antares La Plata</Text>
                         </View>
                         <View>
-                            <Text style={styles.textSubtitulo}>Plantitas ideales para regalar</Text>
+                            <Text style={styles.textSubtitulo}>Ideal para venir con amigos</Text>
                         </View>
                     </View>
                     <TouchableWithoutFeedback onPress={()=> handleIrListaTiendas(0)}>
@@ -43,7 +43,7 @@ const handleIrListaTiendas = (valor) => {
                     </TouchableWithoutFeedback>
                 </View>
                 <View style={styles.descripcionTienda}>
-                    <Text style={styles.textDescripcionTienda}>Suculentas🌱, cactus🌵 y todas las plantitas❤ que quieras para decorar tus ambientes!🌺🌻🌷🌼</Text>
+                    <Text style={styles.textDescripcionTienda}>Cerveza Artesanal estilo Antares, Papas Antares, Comida, etc...</Text>
                 </View>
                 <View style={styles.containerInferiorCard}>
                     <View>
